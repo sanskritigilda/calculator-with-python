@@ -1,6 +1,6 @@
-# Calculator with Python
+ # CLI Calculator Python
 
-A simple command-line calculator built using Python. It supports basic arithmetic operations along with advanced mathematical functions.
+A simple Command Line Interface (CLI) Calculator built using Python. This calculator performs basic and advanced mathematical operations with a user-friendly menu-driven interface.
 
 ## Features
 
@@ -8,30 +8,32 @@ A simple command-line calculator built using Python. It supports basic arithmeti
 * Subtraction
 * Multiplication
 * Division
+* Square of a number
 * Modulus (%)
-* Square
 * Square Root
 * Power (x^y)
-* Division by Zero Handling
-* Multiple Calculations Without Restarting
-* User-Friendly Menu Interface
+* Multiple calculations without restarting the program
+* Division by zero handling
+* Invalid input handling
+* Exit option
 
-## Requirements
+## Technologies Used
 
-* Python 3.x
+* Python 3
+* Math Module
 
 ## How to Run
 
-1. Clone this repository:
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/calculator-with-python.git
+git clone https://github.com/your-username/cli-calculator-python.git
 ```
 
 2. Navigate to the project folder:
 
 ```bash
-cd calculator-with-python
+cd cli-calculator-python
 ```
 
 3. Run the program:
@@ -40,7 +42,7 @@ cd calculator-with-python
 python calculator.py
 ```
 
-## Example
+## Sample Menu
 
 ```text
 ===== CALCULATOR =====
@@ -53,14 +55,36 @@ python calculator.py
 7. Square Root
 8. Power (x^y)
 9. Exit
-
-Enter your choice (1-9):
 ```
 
-## Technologies Used
+## Example
 
-* Python
-* Math Module
+```text
+Enter your choice (1-9): 1
+Enter first number: 10
+Enter second number: 5
+Result = 15
+```
+
+## Project Structure
+
+```text
+cli-calculator-python/
+│
+├── calculator.py
+└── README.md
+```
+
+## Learning Outcomes
+
+This project helps beginners understand:
+
+* Functions and loops
+* Conditional statements
+* User input handling
+* Mathematical operations
+* Error handling in Python
+* CLI application development
 
 ## Author
 
@@ -68,4 +92,4 @@ Sanskriti Gilda
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open-source and available under the MIT License.
